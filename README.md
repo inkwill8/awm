@@ -11,3 +11,5 @@ Contents:
     - conditional-branching-exercise.js
     - switch.md
     - switch-practice.js
+    - convert-strings2numbs.md
+    - table-creation.md
