@@ -39,21 +39,16 @@ console.table(lordOfTheRings);
 ----------
 
 ```
-| (index) | firstName      | lastName        | place                                                            
-                                                                                                                
-                                                              |
-| --- | --- | --- | --- |
-| 0    | Frodo          | Baggins         | Bag End, The Shire                                                  
-                                                                                 |
-| 1    | Samwise        | Gamgee          | The Shire                                                           
-                                                                  |
-| 2    | Aragorn        | Son of Arathorn | Minas Tirith, Gondor                                                
-                                                             |
-| 3    | Legolas        | Elfkind         | Lothlorien                                                          
-                                                         |
-| 4    | Gimli           | Son of Gloin    | Ered Luin, the Blue Mountains                                      
-                                                                                                        |
-| 5    | Boromir        | Captain of the | Minas Tirith, Gondor                                                 
+┌─────────┬───────────┬──────────────────────────────┬─────────────────────────────────┐
+│ (index) │ firstName │ lastName                     │ place                           │
+├─────────┼───────────┼──────────────────────────────┼─────────────────────────────────┤
+│ 0       │ 'Frodo'   │ 'Baggins'                    │ 'Bag End, The Shire'            │
+│ 1       │ 'Samwise' │ 'Gamgee'                     │ 'The Shire'                     │
+│ 2       │ 'Aragorn' │ 'Son of Arathorn'            │ 'Minas Tirith, Gondor'          │
+│ 3       │ 'Legolas' │ 'Elfkind'                    │ 'Lothlorien'                    │
+│ 4       │ 'Gimli'   │ 'Son of Gloin'               │ 'Ered Luin, the Blue Mountains' │
+│ 5       │ 'Boromir' │ 'Captain of the White Tower' │ 'Minas Tirith, Gondor'          │
+└─────────┴───────────┴──────────────────────────────┴─────────────────────────────────┘
 ```
 
 **Advantages**
