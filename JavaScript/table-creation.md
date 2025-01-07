@@ -38,6 +38,7 @@ console.table(lordOfTheRings);
 ### Output
 ----------
 
+```
 | (index) | firstName      | lastName        | place                                                            
                                                                                                                 
                                                               |
@@ -53,7 +54,7 @@ console.table(lordOfTheRings);
 | 4    | Gimli           | Son of Gloin    | Ered Luin, the Blue Mountains                                      
                                                                                                         |
 | 5    | Boromir        | Captain of the | Minas Tirith, Gondor                                                 
-                                                      |
+```
 
 **Advantages**
 -------------
