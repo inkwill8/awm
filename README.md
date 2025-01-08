@@ -13,3 +13,4 @@ Contents:
     - switch-practice.js
     - convert-strings2numbs.md
     - table-creation.md
+    - functions.md
