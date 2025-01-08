@@ -32,7 +32,7 @@ function sum(param1, param2) {
 
 In this example:
 
-*   We define a function named `sum` that takes one parameter `param1`.
-*   Inside the function, we use the `return` method to print out a greeting message.
+*   We define a function named `sum` that takes two parameters `param1` and `param2`.
+*   Inside the function, we use the `return` method to add the value of the two parameters together.
 *   When we call the `sum()` function with arguments `1,2`, it executes the code inside the function and 
 prints out the sum.
