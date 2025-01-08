@@ -6,7 +6,7 @@ value of an expression.
 
 ### Basic Syntax
 
-```markdown
+```javascript
 switch(expression) {
   case 'value1':  // if (expression === 'value1')
     ...
@@ -35,7 +35,7 @@ break statement is met or the end of the switch.
 
 ### Example
 
-```markdown
+```javascript
 switch(x) {
   case 'value1':  // if (x === 'value1')
     console.log('Value 1 matched');
