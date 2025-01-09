@@ -21,6 +21,25 @@ const add = (x, y) => x + y;
 console.log(add(2, 3)); // Output: 5
 ```
 
+### Single-Line Arrow Function
+---------------------------
+
+Arrows functions are handy for simple actions, especially for one-liners. They come in two flavors:
+
+#### Without Curly Braces: `(...args) => expression`
+The right side is an expression: the function evaluates it and returns the result.
+
+*   Parentheses can be omitted if there’s only a single argument, e.g.: `n => n * 2`
+
+### Multi-Statement Arrow Function
+---------------------------------
+
+#### With Curly Braces: `(...args) => { body }`
+Brackets allow us to write multiple statements inside the function, but we need an explicit return to return 
+something.
+
+This format is useful for more complex functions that require multiple lines of code.
+
 **Key Features**
 ----------------
 
