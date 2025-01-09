@@ -14,3 +14,4 @@ Contents:
     - convert-strings2numbs.md
     - table-creation.md
     - functions.md
+    - arrow-functions.md
