@@ -16,3 +16,4 @@ Contents:
     - functions.md
     - arrow-functions.md
     - call-stack.md
+    - last-letter.js
