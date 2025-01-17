@@ -17,3 +17,6 @@ Contents:
     - arrow-functions.md
     - call-stack.md
     - last-letter.js
+    - for-loop.md
+    - do-while-loop.md
+    - while-loop.md
