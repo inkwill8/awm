@@ -1,3 +1,5 @@
+# `while` loops
+
 ### What is a `while` Loop?
 
 A `while` loop is a type of loop where the code inside the loop body is executed **as long as** a certain 
