@@ -7,6 +7,8 @@ about programming.
 Contents:
 
 - JavaScript/
+    - img/
+    - launch-countdown/
     - JS-conditionals.md
     - conditional-branching-exercise.js
     - switch.md
