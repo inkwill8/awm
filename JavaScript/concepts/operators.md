@@ -13,7 +13,7 @@ them.
 shorthand way of concatenating strings or adding values to
 variables.
 *   **Example:**
-    ```javascript
+```javascript
 let name = "John";
 name += " Doe"; // Assigns " JohnDoe" to the variable name
 console.log(name); // Output: "John Doe"
@@ -24,7 +24,7 @@ console.log(name); // Output: "John Doe"
 *   **Description:** The logical NOT operator (`!`)
 returns true if its operand is false, and vice versa.
 *   **Example:**
-    ```javascript
+```javascript
 let isAdmin = false;
 if (!isAdmin) {
     console.log("You are not an admin");
@@ -41,7 +41,7 @@ Chaining)
 (`??`) returns its right-hand side operand if its
 left-hand side operand is null or undefined.
 *   **Example:**
-    ```javascript
+```javascript
 let age = 25;
 let formattedAge = age ?? 'Unknown';
 console.log(formattedAge); // Output: "25"
@@ -53,7 +53,7 @@ console.log(formattedAge); // Output: "25"
 returns its left-hand side operand if it is true, and the
 right-hand side operand if it is false.
 *   **Example:**
-    ```javascript
+```javascript
 let age = 0;
 let adult = (age >= 18) ? 'Adult' : 'Minor';
 console.log(adult); // Output: "Minor"
@@ -65,7 +65,7 @@ console.log(adult); // Output: "Minor"
 returns its left-hand side operand if it is true, and the
 right-hand side operand if either of them is false.
 *   **Example:**
-    ```javascript
+```javascript
 let isAdmin = true;
 let hasPrivileges = true;
 let hasAccess = (isAdmin && hasPrivileges) ? 'Admin' :
