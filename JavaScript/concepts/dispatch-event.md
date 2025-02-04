@@ -88,4 +88,4 @@ the event occurred relative to the viewport.
 **Full List of MouseEvent Properties**
 
 Visit the [official Mozilla
-documentation](https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent)documentation](https://developer.mozilla.org/enUS/docs/Web/API/MouseEvent) for the full list of properties available in the `MouseEvent`.
+documentation](https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent) for the full list of properties available in the `MouseEvent`.
