@@ -13,5 +13,6 @@ let avatar = [
 //console.log(char.name);//
 //console.log(elem.name);//
 
-let benders = avatar.filter(item => item.bender === true);
+let benders = avatar.filter(item => item.bender == true);
 console.log(benders);
+
