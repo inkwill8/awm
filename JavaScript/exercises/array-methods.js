@@ -7,8 +7,11 @@ let avatar = [
 	{name: 'Suki', bender: false, element: undefined}
 ];
 
-let char = avatar.find(item => item.bender == false);
-let elem = avatar.find(item => item.element == 'fire');
+//let char = avatar.find(item => item.bender == false);//
+//let elem = avatar.find(item => item.element == 'fire')//;
 
-console.log(char.name);
-console.log(elem.name);
+//console.log(char.name);//
+//console.log(elem.name);//
+
+let benders = avatar.filter(item => item.bender === true);
+console.log(benders);
