@@ -13,6 +13,15 @@ let avatar = [
 //console.log(char.name);//
 //console.log(elem.name);//
 
-let benders = avatar.filter(item => item.bender == true);
-console.log(benders);
+//let benders = avatar.filter(item => item.bender == true);//
+//console.log(benders);//
 
+let dune = ['Paul Atreides', 'Arrakis', 'Shai Hulud', 'crysknife'];
+
+let duneMapped = dune.map(item => item.length);
+
+console.log(duneMapped);
+
+let duneSorted = dune.sort();
+
+console.log(duneSorted);
