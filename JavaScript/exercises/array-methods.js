@@ -16,12 +16,15 @@ let avatar = [
 //let benders = avatar.filter(item => item.bender == true);//
 //console.log(benders);//
 
-let dune = ['Paul Atreides', 'Arrakis', 'Shai Hulud', 'crysknife'];
+let dune = 'Paul Atreides, Arrakis, Shai Hulud, crysknife';
 
-let duneMapped = dune.map(item => item.length);
+//let duneMapped = dune.map(item => item.length);
 
-console.log(duneMapped);
+//let duneReversed = duneMapped.reverse();
 
-let duneSorted = dune.sort();
+//let duneSorted = dune.sort();
 
-console.log(duneSorted);
+let duneNames = dune.split(', ');
+
+console.log(dune);
+console.log(duneNames);
