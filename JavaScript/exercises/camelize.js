@@ -8,7 +8,12 @@ function camelize(str) {
 		console.log(splitString);
 
 	// capitalize each string except the first
+		let capitalFirstLetters = splitString.map((str) => str.charAt(0).toUpperCase());
 
+		let capitals = capitalFirstLetters.splice(1,2);
+		console.log(capitals);
+
+	// need to remove the first letters from the splitString array and append the capital letters to those indices
 	// join the altered strings back into a single string
 }
 
