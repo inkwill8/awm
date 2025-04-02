@@ -26,5 +26,9 @@ let dune = 'Paul Atreides, Arrakis, Shai Hulud, crysknife';
 
 let duneNames = dune.split(', ');
 
-console.log(dune);
-console.log(duneNames);
+//console.log(dune);
+//console.log(duneNames);
+
+console.log(Array.isArray(avatar));
+
+console.log(Array.isArray(dune));
