@@ -9,3 +9,4 @@ let sorted = array.sort();
 let arrayDecreasing = sorted.reverse();
 
 console.log(arrayDecreasing);
+console.log(array);
