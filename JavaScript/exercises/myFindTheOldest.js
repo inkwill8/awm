@@ -25,10 +25,11 @@ function findTheOldest(arrayOfPeople) {
 };
 
 
-//	let oldest = 
 
 console.log(ages);
 largestAge(ages);
+
+	let oldestPerson = arrayOfPeople.map((person) => person.
 };
 
 findTheOldest(people);
