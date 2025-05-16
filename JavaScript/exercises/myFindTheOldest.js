@@ -16,20 +16,24 @@ const people = [
         },
 ];
 function findTheOldest(arrayOfPeople) {
-        let ages = arrayOfPeople.map((person) => [person.yearOfDeath - person.yearOfBirth]);
+        const ages = arrayOfPeople.map((person) => [person.yearOfDeath - person.yearOfBirth]);
 
-	function largestAge(array) {
-		let oldest = array.reduce((largest, current) => current > largest ? current : largest);
-	
-		console.log(oldest);
+
+	let largestAge = function (array) {
+	let oldest = array.reduce((largest, current) => current > largest ? current : largest)
+		return oldest;
 };
+	
+	function matchAgeToPerson(arrayOfPeople) {
+		return	arrayOfPeople.map((person) => person === largestAge ? person.name : 'uh oh'); 
 
 
+};
 
 console.log(ages);
 largestAge(ages);
+matchAgetoPerson(people);
 
-	let oldestPerson = arrayOfPeople.map((person) => person.
 };
 
 findTheOldest(people);
