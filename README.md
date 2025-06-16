@@ -11,5 +11,9 @@ Contents:
     - exercises/
     - img/
 
--Linux/
+- Linux/
     - Linux-Commands.md
+
+- Ruby
+    - concepts/
+    - exercises/
