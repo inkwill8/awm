@@ -6,14 +6,7 @@ about programming.
 
 Contents:
 
-- JavaScript/
-    - concepts/
-    - exercises/
-    - img/
+- JavaScript 🖋️
+- Linux 🐧
+- Ruby 💎
 
-- Linux/
-    - Linux-Commands.md
-
-- Ruby
-    - concepts/
-    - exercises/
