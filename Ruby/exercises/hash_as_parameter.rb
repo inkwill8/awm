@@ -9,5 +9,6 @@ def greeting(name, options = {})
   end
 end
 
-greeting('Paul Atreides')
+greeting('Emporer Shaddam Corinno IV')
 greeting('Paul Atreides', { age: 22, place: 'the Planet Kaladan', food: 'the spice melange'})
+greeting('Aragorn, son of Arathorn', age: 348, place: 'Minas Tirith, City of Kings', food: 'lambas bread')
