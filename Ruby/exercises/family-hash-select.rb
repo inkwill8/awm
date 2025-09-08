@@ -10,4 +10,3 @@ family = {
 siblings = family.select { |k, v| (k == :sisters) || (k == :brothers)}
 puts siblings
 puts siblings.values
-puts siblings.values.length
