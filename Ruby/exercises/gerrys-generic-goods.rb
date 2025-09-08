@@ -18,8 +18,22 @@ puts "------------------------------------------------------"
 puts "How many swords would you like?"
 user_sword_count = gets
 
-puts "How many shield would you like?"
+puts "How many shields would you like?"
 user_shield_count = gets
 
 puts "How many ounces of potion would you like?"
 user_potion_count = gets
+
+# Define a method to calculate the prices
+def calculate_price(item_count, item_price)
+   result = item_count * item_price
+   return result;
+end
+
+# Assign some variables to the calculate_price method with the arguments passed
+sword_price = 
+shield_price = 
+potion_price = 
+
+puts "#{user_sword_count} swords is "
+
