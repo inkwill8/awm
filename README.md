@@ -9,4 +9,5 @@ Contents:
 - JavaScript 🖋️
 - Linux 🐧
 - Ruby 💎
-
+- Bash 🐚
+- C++ ➕
