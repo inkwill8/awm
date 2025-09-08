@@ -24,18 +24,30 @@ user_shield_count = gets.chomp.to_i
 puts "How many ounces of potion would you like?"
 user_potion_count = gets.chomp.to_f
 
-# Define a method to calculate the prices
+puts ""
+
+# Define a method to calculate the prices of each set of goods
 def calculate_price(item_count, item_price)
    result = item_count * item_price
    return result;
 end
 
 # Assign some variables to the calculate_price method with the arguments passed
-sword_price = calculate_price(user_sword_count, sword).to_s
-shield_price = calculate_price(user_shield_count, shield).to_s
-potion_price = calculate_price(user_potion_count, potion).to_s
+sword_price = calculate_price(user_sword_count, sword)
+shield_price = calculate_price(user_shield_count, shield)
+potion_price = calculate_price(user_potion_count, potion)
 
 puts "#{user_sword_count} swords is #{sword_price} gold"
 puts "#{user_shield_count} shields is #{shield_price} gold"
 puts "#{user_potion_count} ounces of potion is #{potion_price} gold"
 
+puts "------------------------------------------------------"
+
+# Define a method to calculate the total price of purchase
+def calculate_total(sword_price, shield_price, potion_price)
+    result = sword_price + shield_price + potion_price
+    return result;
+end
+
+puts "Total Cost of Goods: #{calculate_total(sword_price, shield_price, potion_price)} gold"
+puts ""
