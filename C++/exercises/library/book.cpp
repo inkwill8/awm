@@ -22,6 +22,12 @@ public:
 	this->isAvailable = isAvailable;
 	}
 
+	std::string GetTitle() {
+	return title;
+	}
 
+	std::string GetAuthor() {
+
+	}
 
 };
