@@ -22,12 +22,40 @@ public:
 	this->isAvailable = isAvailable;
 	}
 
+	// Getters
+	
 	std::string GetTitle() {
 	return title;
 	}
 
 	std::string GetAuthor() {
+	return author;
+	}
 
+	std::string GetIsbn() {
+	return isbn;
+	}
+
+	bool GetAvailability() {
+	return isAvailable;
+	}
+
+	// Setters
+	
+	void SetTitle(std::string title) {
+	this->title = title;
+	}
+
+	void SetAuthor(std::string author) {
+	this->author = author;
+	}
+
+	void SetIsbn(std::string isbn) {
+	this->isbn = isbn;
+	}
+
+	void SetAvailability(bool isAvailable) {
+	this->isAvailable = isAvailable;
 	}
 
 };
