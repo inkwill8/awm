@@ -41,6 +41,13 @@ public:
 	return isAvailable;
 	}
 
+	std::string GetDescription() {
+		bool availableInt = (int)isAvailable;
+		std::string availability = availableInt ? "available" : "unavailable";
+
+		return title + " by " + author + " with ISBN " + isbn + " is " + availability;
+	}
+
 	// Setters
 	
 	void SetTitle(std::string title) {
