@@ -48,22 +48,13 @@ public:
 		return title + " by " + author + " with ISBN " + isbn + " is " + availability;
 	}
 
-	// Setters
+	// Methods
 	
-	void SetTitle(std::string title) {
-	this->title = title;
+	void CheckOut(Book book) {
+	book.SetAvailability(false);
 	}
 
-	void SetAuthor(std::string author) {
-	this->author = author;
+	void ReturnBook(Book book) {
+	book.SetAvailability(true);
 	}
-
-	void SetIsbn(std::string isbn) {
-	this->isbn = isbn;
-	}
-
-	void SetAvailability(bool isAvailable) {
-	this->isAvailable = isAvailable;
-	}
-
 };
