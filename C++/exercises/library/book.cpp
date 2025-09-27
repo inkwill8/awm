@@ -8,6 +8,10 @@ class Book {
 	std::string isbn;
 	bool isAvailable;
 
+	void SetAvailability(bool isAvailable) {
+	this->isAvailable = isAvailable;
+	}
+
 public:
 	Book() {
 	title = "";
@@ -41,13 +45,6 @@ public:
 	return isAvailable;
 	}
 
-	std::string GetDescription() {
-		bool availableInt = (int)isAvailable;
-		std::string availability = availableInt ? "available" : "unavailable";
-
-		return title + " by " + author + " with ISBN " + isbn + " is " + availability;
-	}
-
 	// Methods
 	
 	void CheckOut(Book book) {
@@ -56,5 +53,14 @@ public:
 
 	void ReturnBook(Book book) {
 	book.SetAvailability(true);
+	}	
+
+	std::string DisplayInfo() {
+	bool availableInt = (int)isAvailable;
+	std::string availability = availableInt ? "available" : "unavailable";
+
+	return title + " by " + author + " with ISBN " + isbn + " is " + availability;
 	}
+
+
 };
