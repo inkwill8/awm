@@ -4,14 +4,6 @@ Book::Book(std::string title, std::string author, std::string isbn, bool isAvail
 	title(title), author(author), isbn(isbn), isAvailable(isAvailable)
 { }
 
-Book::Book(std::string title, std::string author, std::string isbn, bool isAvailable)
-{
-	title = "";
-	author = "";
-	isbn = "";
-	isAvailable = false;
-}
-
 	// getters
 	std::string Book::GetTitle() const { return title; }
 	std::string Book::GetAuthor() const { return author; }

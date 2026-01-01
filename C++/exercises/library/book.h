@@ -1,3 +1,4 @@
+#pragma once
 #include <string>
 #include <iostream>
 
@@ -10,19 +11,19 @@ private:
 	bool isAvailable;
 
 public:
-	Book(std::string title, std::string author, std::string isbn, bool isAvailable) {}
+	Book(std::string title, std::string author, std::string isbn, bool isAvailable);
 
 	// Getters
-	std::string GetTitle() const {}
-	std::string GetAuthor() const {}
-	std::string GetIsbn() const {}
-	bool GetAvailability() const {}
+	std::string GetTitle() const;
+	std::string GetAuthor() const;
+	std::string GetIsbn() const;
+	bool GetAvailability() const;
 
 	// Methods
-	void SetAvailability(bool isAvailable) {}
-	void CheckOut() {}
-	void ReturnBook() {}	
-	std::string DisplayInfo() {}
+	void SetAvailability(bool isAvailable);
+	void CheckOut();
+	void ReturnBook();
+	std::string DisplayInfo();
 
 
 };

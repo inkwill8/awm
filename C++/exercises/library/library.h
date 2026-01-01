@@ -1,3 +1,4 @@
+#pragma once
 #include <string>
 #include <vector>
 #include "book.h"
@@ -7,7 +8,7 @@ private:
 	std::vector<Book> books;
 
 public:
-	void AddBook(Book& book) {}
+	void AddBook(Book& book);
 
-	std::string SearchByTitle(std::string& title) {}
+	std::string SearchByTitle(std::string& title);
 };
