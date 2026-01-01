@@ -1,66 +1,35 @@
-#include <string>
-#include <iostream>
+#include "book.h"
 
-class Book {
-	// Member fields
-	std::string title;
-	std::string author;
-	std::string isbn;
-	bool isAvailable;
-
-	void SetAvailability(bool isAvailable) {
-	this->isAvailable = isAvailable;
-	}
-
-public:
-	Book() {
+Book::Book() {
 	title = "";
 	author = "";
 	isbn = "";
 	isAvailable = false;
-	}
-	
-	Book(std::string title, std::string author, std::string isbn, bool isAvailable) {
+}
+
+Book::Book(std::string title, std::string author, std::string isbn, bool isAvailable) {
 	this->title = title;
 	this->author = author;
 	this->isbn = isbn;
 	this->isAvailable = isAvailable;
-	}
+}
 
-	// Getters
-	
-	std::string GetTitle() {
-	return title;
-	}
+	// getters
+	std::string Book::GetTitle() const { return title; }
+	std::string Book::GetAuthor() const { return author; }
+	std::string Book::GetIsbn() const { return isbn; }
+	std::string Book::GetAvailability() const { return isAvailable; }
 
-	std::string GetAuthor() {
-	return author;
-	}
+	// setters
+	void Book::SetAvailability(bool isAvailable) { this->isAvailable = isAvailable; }
 
-	std::string GetIsbn() {
-	return isbn;
-	}
+	// methods
+	void Book::CheckOut(Book book) { book.SetAvailability(false); }
+	void Book::ReturnBook(Book book) { book.SetAvailability(true); }	
 
-	bool GetAvailability() {
-	return isAvailable;
-	}
-
-	// Methods
-	
-	void CheckOut(Book book) {
-	book.SetAvailability(false);
-	}
-
-	void ReturnBook(Book book) {
-	book.SetAvailability(true);
-	}	
-
-	std::string DisplayInfo() {
+	std::string Book::DisplayBook() {
 	bool availableInt = (int)isAvailable;
 	std::string availability = availableInt ? "available" : "unavailable";
 
 	return title + " by " + author + " with ISBN " + isbn + " is " + availability;
-	}
-
-
-};
+}
