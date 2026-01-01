@@ -16,13 +16,13 @@ public:
 	std::string GetTitle() const {}
 	std::string GetAuthor() const {}
 	std::string GetIsbn() const {}
-	std::string GetAvailability() const {}
+	bool GetAvailability() const {}
 
 	// Methods
 	void SetAvailability(bool isAvailable) {}
-	void CheckOut(Book book) {}
-	void ReturnBook(Book book) {}	
-	std::string DisplayBook() {}
+	void CheckOut() {}
+	void ReturnBook() {}	
+	std::string DisplayInfo() {}
 
 
 };

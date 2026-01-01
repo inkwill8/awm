@@ -1,5 +1,6 @@
 #include <string>
 #include <vector>
+#include "book.h"
 
 class Library {
 private:

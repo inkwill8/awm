@@ -16,16 +16,16 @@ Book::Book(std::string title, std::string author, std::string isbn, bool isAvail
 	std::string Book::GetTitle() const { return title; }
 	std::string Book::GetAuthor() const { return author; }
 	std::string Book::GetIsbn() const { return isbn; }
-	std::string Book::GetAvailability() const { return isAvailable; }
+	bool Book::GetAvailability() const { return isAvailable; }
 
 	// setters
 	void Book::SetAvailability(bool isAvailable) { this->isAvailable = isAvailable; }
 
 	// methods
-	void Book::CheckOut(Book book) { book.SetAvailability(false); }
-	void Book::ReturnBook(Book book) { book.SetAvailability(true); }	
+	void Book::CheckOut() { this->SetAvailability(false); }
+	void Book::ReturnBook() { this->SetAvailability(true); }	
 
-	std::string Book::DisplayBook() {
+	std::string Book::DisplayInfo() {
 	bool availableInt = (int)isAvailable;
 	std::string availability = availableInt ? "available" : "unavailable";
 
