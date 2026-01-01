@@ -1,17 +1,15 @@
 #include "book.h"
 
-Book::Book() {
+Book::Book(std::string title, std::string author, std::string isbn, bool isAvailable) : 
+	title(title), author(author), isbn(isbn), isAvailable(isAvailable)
+{ }
+
+Book::Book(std::string title, std::string author, std::string isbn, bool isAvailable)
+{
 	title = "";
 	author = "";
 	isbn = "";
 	isAvailable = false;
-}
-
-Book::Book(std::string title, std::string author, std::string isbn, bool isAvailable) {
-	this->title = title;
-	this->author = author;
-	this->isbn = isbn;
-	this->isAvailable = isAvailable;
 }
 
 	// getters

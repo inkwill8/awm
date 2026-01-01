@@ -10,7 +10,6 @@ private:
 	bool isAvailable;
 
 public:
-	Book() {}
 	Book(std::string title, std::string author, std::string isbn, bool isAvailable) {}
 
 	// Getters
