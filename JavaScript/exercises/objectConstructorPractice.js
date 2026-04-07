@@ -20,6 +20,10 @@ function Person(name, gender, age, occupation, hobby) {
   };
 }
 
+//class Animal {
+  
+//};
+
 let seby = new Person(
   "Sebastien",
   "male",
@@ -28,4 +32,7 @@ let seby = new Person(
   "watches and fragrances",
 );
 
+let rose = new Person("Rose", "female", 27, "hot wife", "crocheting");
+
 console.log(seby.bio());
+console.log(rose.bio());
