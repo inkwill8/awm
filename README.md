@@ -11,3 +11,4 @@ Contents:
 - Ruby 💎
 - Bash 🐚
 - C++ ➕
+- Python 🐍
