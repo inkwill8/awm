@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
-#include "book.cpp"
+#include "book.h"
+#include "library.h"
 
 int main() 
 {

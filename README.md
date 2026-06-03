@@ -11,4 +11,8 @@ Contents:
 - Ruby 💎
 - Bash 🐚
 - C++ ➕
+<<<<<<< HEAD
 - Python 🐍
+=======
+- HTML/CSS 〈〉 
+>>>>>>> ec656a8915cbf7aa104e6f84d8786563b9978746
