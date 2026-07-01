@@ -26,9 +26,21 @@ def check_file_status(file):
         print("Some error occurred.")
 
 
+def count_log_entries(file):
+    file = open(file)
+    counter = 0
+    for line in file:
+        if line[-1] == "\n":
+            counter += 1
+    file.close()
+    return counter
+
+
 # Program Start
+file = "log.txt"
+
 print("Would you like to write a log message or read from the log file?")
-print("1. to write, 2. to read...")
+print("1. to write... 2. to read... 3. to count log entries...")
 choice = input("Choice: ")
 int_choice = int(choice)
 
@@ -40,5 +52,8 @@ if int_choice == 1:
 elif int_choice == 2:
     text = read_file()
     print(text)
+elif int_choice == 3:
+    entries = count_log_entries(file)
+    print(entries)
 else:
-    print('Not a valid input.')
+    print("Not a valid input.")
